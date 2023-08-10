@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>to do list- 2023</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1 style="background:red">to do list</h1>
+        <input type="text" name="" id="taskInput" placeholder="Enter Task">
+        <button>ADD TASK</button>
+
+        <ul id="taskList"></ul>
+
+        <!-- ///////////////////////////// -->
+
+        <h1></h1>
+        <input type="text" name="" id="">
+        <button></button>
+        <ul></ul>
+        <!-- ///////////////////// -->
+        <h1></h1>
+        <input type="text">
+        <button></button>
+        <ul></ul>
+        <!-- ///////////////// -->
+
+        <script>
+            var tasks = [];
+
+            function addItem(){
+                var taskInput = document.getElementById("taskInput");
+                var newTask = taskInput.value;
+
+                if (newTask !==""){
+                    task.push(newTask);
+                    taskInput.value ="";
+                    renderTaks();
+                }
+            }
+        </script>
+
+    </body>
+</html>
